@@ -1,3 +1,13 @@
 <div style="display: flex; justify-content: end">
-  <p-multiSelect [options]="{[label:'r', value:'r']}"></p-multiSelect>
+  <p-multiSelect
+    style="width: 400px"
+    [options]="[
+      { label: 'short option', value: 'r' },
+      {
+        label:
+          'very very very very very very very very very very very very very very very very very very very very very long option',
+        value: 'r'
+      }
+    ]"
+  ></p-multiSelect>
 </div>
